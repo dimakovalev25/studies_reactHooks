@@ -1,9 +1,14 @@
-import {useEffect, useState, useCallback} from "react";
+import {useEffect, useState, useCallback, useMemo} from "react";
 import {Container} from "react-bootstrap";
 
 const calc = () => {
     // console.log('random');
     return Math.random() * (10 - 1) + 1;
+}
+
+const countTotal = (num) => {
+    console.log('count');
+    return num + 10;
 }
 
 const Slider = (props) => {
@@ -26,12 +31,17 @@ const Slider = (props) => {
     }, [slide])
 
     const getImg = useCallback(() => {
-        console.log('get img')
+        // console.log('get img')
         return [
             "https://slon.fr/wp-content/uploads/2020/07/393721-svetik-1280x960.jpg",
             "https://slon.fr/wp-content/uploads/2020/07/393721-svetik-1280x960.jpg"
         ]
-    }, [])
+    }, []);
+
+    const total = useMemo(() => {
+        console.log('memo')
+        return countTotal(slide);
+    }, [slide]);
 
 
     return (
@@ -54,10 +64,13 @@ const Slider = (props) => {
 
                 {/*}*/}
 
-                <Slide getImg={getImg} />
+                <Slide getImg={getImg}/>
 
                 <div className="text-center mt-5">Active slide {slide} <br/> {autoplay ? 'auto' : null}
                 </div>
+
+                <div className="text-center mt-5">Total: {total}</div>
+
                 <div className="buttons mt-3">
                     <button
                         className="btn btn-primary me-2"
