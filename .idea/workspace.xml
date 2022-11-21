@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="740899c8-03ae-40c1-8ec4-5755eb565f5b" name="Changes" comment="">
+    <list default="true" id="740899c8-03ae-40c1-8ec4-5755eb565f5b" name="Changes" comment="useRef">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/UseRef.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Form.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Hiiqt0G6KyWGKRF0cTjR9kXVPT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,15 +33,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/dima/react_marvel&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/dima/react_huki/src/component&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dima\react_huki\src\component" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/index.js" working-dir="$PROJECT_DIR$">
       <method v="2">
@@ -60,11 +70,71 @@
       <updated>1668774501228</updated>
       <workItem from="1668774503630" duration="17000" />
       <workItem from="1668774527069" duration="23020000" />
-      <workItem from="1668862638122" duration="25867000" />
+      <workItem from="1668862638122" duration="25962000" />
+      <workItem from="1669025357446" duration="14166000" />
+      <workItem from="1669055250397" duration="2805000" />
     </task>
+    <task id="LOCAL-00001" summary="UseStateConverter">
+      <created>1668965604759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668965604759</updated>
+    </task>
+    <task id="LOCAL-00002" summary="useEffect">
+      <created>1669032663461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669032663461</updated>
+    </task>
+    <task id="LOCAL-00003" summary="useCallback">
+      <created>1669033765774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669033765774</updated>
+    </task>
+    <task id="LOCAL-00004" summary="useRef">
+      <created>1669048289647</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669048289647</updated>
+    </task>
+    <task id="LOCAL-00005" summary="useRef">
+      <created>1669050866600</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669050866600</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UseStateConverter" />
+    <MESSAGE value="useEffect" />
+    <MESSAGE value="useCallback" />
+    <MESSAGE value="useRef" />
+    <option name="LAST_COMMIT_MESSAGE" value="useRef" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
