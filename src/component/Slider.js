@@ -7,7 +7,7 @@ const calc = () => {
 }
 
 const countTotal = (num) => {
-    console.log('count');
+    // console.log('count');
     return num + 10;
 }
 
@@ -39,7 +39,7 @@ const Slider = (props) => {
     }, []);
 
     const total = useMemo(() => {
-        console.log('memo')
+        // console.log('memo')
         return countTotal(slide);
     }, [slide]);
 
