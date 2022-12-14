@@ -1,12 +1,11 @@
 import './App.css';
-import Slider from "./slider/Slider";
-
+import UpdateSlider from "./slider/Slider";
 
 
 function App() {
     return (
         <div className={'App'}>
-            <Slider/>
+            <UpdateSlider/>
         </div>
     );
 }

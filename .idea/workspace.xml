@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="740899c8-03ae-40c1-8ec4-5755eb565f5b" name="Changes" comment="wrote their hook">
-      <change afterPath="$PROJECT_DIR$/src/castomHookCalk/CounterHook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/castomHookCalk/RndCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/FormMyHook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/SliderNew.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Hoc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slider/Slider.js" afterDir="false" />
+    <list default="true" id="740899c8-03ae-40c1-8ec4-5755eb565f5b" name="Changes" comment="useState">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/A.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Converter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/castomHookCalk/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/GetResource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/GetResource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/slider/Slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +83,7 @@
       <workItem from="1669631145272" duration="34000" />
       <workItem from="1669821205200" duration="8789000" />
       <workItem from="1669889906552" duration="2746000" />
-      <workItem from="1671028615600" duration="2611000" />
+      <workItem from="1671028615600" duration="6014000" />
     </task>
     <task id="LOCAL-00001" summary="UseStateConverter">
       <created>1668965604759</created>
@@ -138,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669058990167</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="useState">
+      <created>1671031265783</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671031265783</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +157,20 @@
     <MESSAGE value="useCallback" />
     <MESSAGE value="useRef" />
     <MESSAGE value="wrote their hook" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrote their hook" />
+    <MESSAGE value="useState" />
+    <option name="LAST_COMMIT_MESSAGE" value="useState" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/slider/Slider.js</url>
+          <line>55</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
