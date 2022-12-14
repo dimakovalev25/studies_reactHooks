@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useState, useCallback} from 'react';
 import {Container} from 'react-bootstrap';
 
 
@@ -47,6 +47,13 @@ import {Container} from 'react-bootstrap';
 //     }
 // }
 
+// const getImg = () => {
+//     console.log('get img')
+//     return [
+//         "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg",
+//         "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
+//     ]
+// }
 
 const Slider = (props) => {
 
@@ -72,7 +79,7 @@ const Slider = (props) => {
 
     useEffect(() => {
         document.title = `slide: ${slider}`;
-        console.log('useEffect');
+        // console.log('useEffect');
 
         window.addEventListener('click', logging);
 
@@ -83,15 +90,38 @@ const Slider = (props) => {
     }, [slider])
 
     function logging() {
-        console.log('logging!');
+        // console.log('logging!');
     }
+
+    const getSomeImg  = useCallback(() => {
+        console.log('get img')
+        return [
+            "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg",
+            "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
+        ]
+    }, []);
 
     return (
         <Container>
             <div className="slider w-50 m-auto">
-                <img className="d-block w-100"
-                     src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
-                     alt="slide"/>
+                {/*<img className="d-block w-100"*/}
+                {/*     src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"*/}
+                {/*     alt="slide"/>*/}
+
+                {/*{*/}
+                {/*    getSomeImg().map((url, i) => {*/}
+                {/*        return (*/}
+                {/*            <img className="d-block w-100"*/}
+                {/*                 src={url}*/}
+                {/*                 alt="slide"*/}
+                {/*                 key={i}*/}
+                {/*            />*/}
+                {/*        )*/}
+                {/*    })*/}
+                {/*}*/}
+
+                <Slide getSomeImg={getSomeImg}/>
+
                 <div className="text-center mt-5">Active slide: {slider} <br/>
                     {autoplay ? 'auto' : null}
 
@@ -130,7 +160,28 @@ const Slider = (props) => {
 }
 
 
-const UpdateSlider = () =>  {
+const Slide = ({getSomeImg}) => {
+    const [img, setImg] = useState([]);
+
+    useEffect(() => {
+        setImg(getSomeImg())
+    }, [getSomeImg])
+
+
+    return (
+        <>
+            {img.map((url, i) =>
+                <img className="d-block w-100"
+                     src={url}
+                     alt="slide"
+                     key={i}
+                />)}
+        </>
+    )
+
+}
+
+const UpdateSlider = () => {
 
     const [slider, setSlider] = useState(true);
 
