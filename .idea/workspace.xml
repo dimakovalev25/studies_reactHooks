@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="740899c8-03ae-40c1-8ec4-5755eb565f5b" name="Changes" comment="useRef">
+    <list default="true" id="740899c8-03ae-40c1-8ec4-5755eb565f5b" name="Changes" comment="wrote their hook">
+      <change afterPath="$PROJECT_DIR$/src/castomHookCalk/CounterHook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/castomHookCalk/RndCounter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/FormMyHook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/SliderNew.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Hoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slider/Slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/UseRef.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/A.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Converter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/castomHookCalk/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/GetResource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/GetResource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,24 +39,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/dima/react_huki/src/component&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "D:/dima/react_huki",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dima\react_huki\src\component" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dima\react_huki\src\castomHookCalk" />
     </key>
   </component>
   <component name="RunManager">
@@ -72,7 +87,14 @@
       <workItem from="1668774527069" duration="23020000" />
       <workItem from="1668862638122" duration="25962000" />
       <workItem from="1669025357446" duration="14166000" />
-      <workItem from="1669055250397" duration="2805000" />
+      <workItem from="1669055250397" duration="3536000" />
+      <workItem from="1669105897699" duration="14193000" />
+      <workItem from="1669133755490" duration="36000" />
+      <workItem from="1669558213579" duration="5324000" />
+      <workItem from="1669631145272" duration="34000" />
+      <workItem from="1669821205200" duration="8789000" />
+      <workItem from="1669889906552" duration="2746000" />
+      <workItem from="1671028615600" duration="2611000" />
     </task>
     <task id="LOCAL-00001" summary="UseStateConverter">
       <created>1668965604759</created>
@@ -109,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669050866600</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="wrote their hook">
+      <created>1669058990167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669058990167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +160,8 @@
     <MESSAGE value="useEffect" />
     <MESSAGE value="useCallback" />
     <MESSAGE value="useRef" />
-    <option name="LAST_COMMIT_MESSAGE" value="useRef" />
+    <MESSAGE value="wrote their hook" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrote their hook" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

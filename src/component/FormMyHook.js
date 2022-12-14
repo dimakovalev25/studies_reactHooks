@@ -1,7 +1,6 @@
 import {useRef, useState, useEffect} from 'react';
 import {Container} from 'react-bootstrap';
 
-
 function useInputWithValidate(initialValue) {
     const [value, setValue] = useState(initialValue);
 
@@ -16,15 +15,15 @@ function useInputWithValidate(initialValue) {
     return {value, onChange, validateInput}
 }
 
+
+
+
 const Form = () => {
 
     const input = useInputWithValidate('');
     const textArea = useInputWithValidate('');
 
-    console.log(input.value)
-    console.log(input.onChange)
-
-    const color = input.validateInput() ? 'text-danger' : null
+    const color = input.validateInput() ? 'text-danger' : null;
 
     return (
         <Container>
@@ -39,10 +38,10 @@ const Form = () => {
                     />
                     <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
                     <input
-                        value={input.value}
-                        type="email"
-                        className={`form-control ${color}`}
                         onChange={input.onChange}
+                        type="email"
+                        value={input.value}
+                        className={`form-control ${color}`}
                         id="exampleFormControlInput1"
                         placeholder="name@example.com"
 
@@ -51,9 +50,9 @@ const Form = () => {
                 <div className="mb-3">
                     <label htmlFor="exampleFormControlTextarea1" className="form-label">Example textarea</label>
                     <textarea
+                        className="form-control"
                         onChange={textArea.onChange}
                         value={textArea.value}
-                        className="form-control"
                         id="exampleFormControlTextarea1"
                         rows="3"
                     ></textarea>

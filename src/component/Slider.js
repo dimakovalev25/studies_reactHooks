@@ -34,7 +34,6 @@ const Slider = (props) => {
         // console.log('get img')
         return [
             "https://slon.fr/wp-content/uploads/2020/07/393721-svetik-1280x960.jpg",
-            "https://slon.fr/wp-content/uploads/2020/07/393721-svetik-1280x960.jpg"
         ]
     }, []);
 
@@ -50,20 +49,6 @@ const Slider = (props) => {
                 <img className="d-block w-100"
                      src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
                      alt="slide"/>
-
-                {/*{*/}
-                {/*    getImg().map((url, i) => {*/}
-                {/*        return (*/}
-                {/*            <img*/}
-                {/*                key={i}*/}
-                {/*                className="d-block w-100"*/}
-                {/*                src={url}*/}
-                {/*                alt="slide"/>*/}
-                {/*        )*/}
-                {/*    })*/}
-
-                {/*}*/}
-
                 <Slide getImg={getImg}/>
 
                 <div className="text-center mt-5">Active slide {slide} <br/> {autoplay ? 'auto' : null}

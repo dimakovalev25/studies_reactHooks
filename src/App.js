@@ -1,19 +1,12 @@
 import './App.css';
-// import Converter from "./component/Converter";
-// import UseStateConverter from "./component/useStateConverter";
-import Slider from "./component/Slider";
-import Form from './component/Form'
-// import {Form} from "react-bootstrap";
+import Slider from "./slider/Slider";
+
 
 
 function App() {
     return (
-        <div>
-            {/*<Converter />*/}
-            {/*<UseStateConverter />*/}
-            <Form />
-            {/*<Slider/>*/}
-
+        <div className={'App'}>
+            <Slider/>
         </div>
     );
 }
