@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="740899c8-03ae-40c1-8ec4-5755eb565f5b" name="Changes" comment="useEffect">
+    <list default="true" id="740899c8-03ae-40c1-8ec4-5755eb565f5b" name="Changes" comment="useCallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/slider/Slider.js" afterDir="false" />
     </list>
@@ -82,7 +82,7 @@
       <workItem from="1669631145272" duration="34000" />
       <workItem from="1669821205200" duration="8789000" />
       <workItem from="1669889906552" duration="2746000" />
-      <workItem from="1671028615600" duration="7932000" />
+      <workItem from="1671028615600" duration="10060000" />
     </task>
     <task id="LOCAL-00001" summary="UseStateConverter">
       <created>1668965604759</created>
@@ -140,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671035187572</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="useCallback">
+      <created>1671038818435</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671038818435</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,19 +166,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UseStateConverter" />
-    <MESSAGE value="useCallback" />
     <MESSAGE value="useRef" />
     <MESSAGE value="wrote their hook" />
     <MESSAGE value="useState" />
     <MESSAGE value="useEffect" />
-    <option name="LAST_COMMIT_MESSAGE" value="useEffect" />
+    <MESSAGE value="useCallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="useCallback" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/slider/Slider.js</url>
-          <line>62</line>
+          <line>68</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>

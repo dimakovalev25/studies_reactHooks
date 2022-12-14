@@ -1,4 +1,4 @@
-import {useEffect, useState, useCallback} from 'react';
+import {useEffect, useState, useCallback, useMemo} from 'react';
 import {Container} from 'react-bootstrap';
 
 
@@ -55,6 +55,12 @@ import {Container} from 'react-bootstrap';
 //     ]
 // }
 
+const countTotal = (num) => {
+    console.log('count....');
+    return num + 10;
+
+}
+
 const Slider = (props) => {
 
     const [slider, setSlider] = useState(0);
@@ -93,13 +99,18 @@ const Slider = (props) => {
         // console.log('logging!');
     }
 
-    const getSomeImg  = useCallback(() => {
+    const getSomeImg = useCallback(() => {
         console.log('get img')
         return [
             "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg",
             "https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
         ]
     }, []);
+
+    // const total = countTotal(slider);
+    const total = useMemo(() => {
+        return countTotal(slider)
+    }, [slider ])
 
     return (
         <Container>
@@ -124,6 +135,10 @@ const Slider = (props) => {
 
                 <div className="text-center mt-5">Active slide: {slider} <br/>
                     {autoplay ? 'auto' : null}
+
+                </div>
+
+                <div className="text-center mt-5">Count slide: {total}
 
                 </div>
                 <div className="buttons mt-3">
