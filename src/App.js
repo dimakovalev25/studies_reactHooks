@@ -1,11 +1,14 @@
 import './App.css';
-import UpdateSlider from "./slider/Slider";
+import SliderOnHOC from "./hoc/HigherOrderComponents";
 
 
 function App() {
     return (
         <div className={'App'}>
-            <UpdateSlider/>
+            {/*<Form/>*/}
+            {/*<Counter/>*/}
+            {/*<CounterLittle/>*/}
+            <SliderOnHOC/>
         </div>
     );
 }

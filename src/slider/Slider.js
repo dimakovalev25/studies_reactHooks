@@ -1,4 +1,4 @@
-import {useEffect, useState, useCallback, useMemo} from 'react';
+import {useEffect, useState, useCallback, useMemo, useRef} from 'react';
 import {Container} from 'react-bootstrap';
 
 
@@ -61,6 +61,7 @@ const countTotal = (num) => {
 
 }
 
+
 const Slider = (props) => {
 
     const [slider, setSlider] = useState(0);
@@ -110,10 +111,24 @@ const Slider = (props) => {
     // const total = countTotal(slider);
     const total = useMemo(() => {
         return countTotal(slider)
-    }, [slider ])
+    }, [slider ]);
+
+
+    const myRef = useRef(null);
+    const firstFocus = () => {
+        myRef.current.focus();
+    }
 
     return (
         <Container>
+            <input
+                ref={myRef} className={'form-label'}
+                type={"email"}
+            /> <br/>
+            <input
+                onClick={firstFocus}
+                type={"text"}/>
+
             <div className="slider w-50 m-auto">
                 {/*<img className="d-block w-100"*/}
                 {/*     src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"*/}
