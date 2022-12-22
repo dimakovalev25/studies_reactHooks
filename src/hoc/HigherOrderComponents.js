@@ -35,6 +35,7 @@ const SliderFirst = (props) => {
 
     return (
         <Container>
+            {props.name}
             <div className="slider w-50 m-auto">
                 <img className="d-block w-100"
                      src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
@@ -87,10 +88,21 @@ const SliderSecond = (props) => {
 const SliderWithFirstFetch = withSlider(SliderFirst, getDataFromFirstFetch);
 const SliderWithSecondFetch = withSlider(SliderSecond, getDataFromSecondFetch);
 
+
+
+
+const Hello = () => {
+    return (
+        <h3>HELLO!!!</h3>
+    )
+}
+
+
 function SliderOnHOC() {
     return (
         <>
-            <SliderWithFirstFetch/>
+            <Hello></Hello>
+            <SliderWithFirstFetch name={'hoc'}/>
             <SliderWithSecondFetch/>
         </>
     );
