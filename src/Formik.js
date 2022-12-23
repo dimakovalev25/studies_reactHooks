@@ -72,7 +72,7 @@ const Formik = () => {
                 onBlur={formik.handleBlur}
             />
 
-            {formik.errors.name && formik.touched.name ? <div>{formik.errors.name}</div> : null}
+            {formik.errors.name && formik.touched.name ? <div className={'error'}>{formik.errors.name}</div> : null}
 
             <label htmlFor="email">Ваша почта</label>
             <input

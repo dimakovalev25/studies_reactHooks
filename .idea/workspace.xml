@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="740899c8-03ae-40c1-8ec4-5755eb565f5b" name="Changes" comment="useMemo">
-      <change afterPath="$PROJECT_DIR$/src/Formik.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Formik.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/HigherOrderComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/HigherOrderComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Formik.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formik.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +84,7 @@
       <workItem from="1671028615600" duration="11241000" />
       <workItem from="1671117253112" duration="463000" />
       <workItem from="1671544825984" duration="6745000" />
-      <workItem from="1671729935514" duration="10889000" />
+      <workItem from="1671729935514" duration="10963000" />
     </task>
     <task id="LOCAL-00001" summary="UseStateConverter">
       <created>1668965604759</created>
