@@ -1,11 +1,11 @@
 import './App.css';
 import SliderOnHOC from "./hoc/HigherOrderComponents";
-import Formikk from "./Formikk";
+import FormikCustom from "./FormikCustom";
 
 function App() {
     return (
         <div className={'App'}>
-            <Formikk/>
+            <FormikCustom/>
             {/*<Counter/>*/}
             {/*<CounterLittle/>*/}
             {/*<SliderOnHOC/>*/}

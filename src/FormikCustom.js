@@ -22,7 +22,7 @@ import * as Yup from 'yup';
 // }
 
 
-const Formikk = () => {
+const FormikCustom = () => {
 
     // const formik = useFormik({
     //     initialValues: {
@@ -162,4 +162,4 @@ const Formikk = () => {
     )
 }
 
-export default Formikk;
+export default FormikCustom;
